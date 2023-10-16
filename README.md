@@ -1,4 +1,5 @@
 # Парсинг на Python - сайт с калориями продуктов
+![Screenshot from 2023-09-06 06-10-00](https://github.com/DAYT-43/Parsing-calories/assets/80617386/73596edc-5c10-4d76-91ce-bcc03e10a25c)
 
 
 
