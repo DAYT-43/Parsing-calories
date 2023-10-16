@@ -1,8 +1,6 @@
-# Parsing-calories
-Collect information from the website on the caloric content of products and their composition
 # Парсинг на Python - сайт с калориями продуктов
 
-![Screenshot from 2023-09-06 06-10-00.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e4285c8-c355-457c-86d7-9b6905c7adce/2bce39a2-8943-4314-93d0-a9115afb72e0/Screenshot_from_2023-09-06_06-10-00.png)
+
 
 ### Предисловие:
 
@@ -122,9 +120,9 @@ Collect information from the website on the caloric content of products and thei
         all_categories = json.load(file)
     ```
     
-    Убедились, что все ок 
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2a9407a4-684f-435f-b1c2-dbdf004db203/Untitled.png)
+    Убедились, что все ок
+    ![Untitled (3)](https://github.com/DAYT-43/Parsing-calories/assets/80617386/6b981143-cf6b-4f0f-ae89-8709ca6dec04)
+
     
 - Создаем цикл на каждой итерации которого мы будем заходить на новую страницу категории, собирать с нее данные о продуктах и хим. составе и записывать все в файл. Также пробелы из знаки препинания заменим на нижний слэш, для более лаконичного составления имен
     
@@ -249,7 +247,8 @@ Collect information from the website on the caloric content of products and thei
     
 - При запуске кода, нам выпадет ошибка, поскольку по одной из ссылок, код не найдет таблицы, поэтому мы допишем  условие
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31fa5538-0a0a-403a-ac50-d53eb0009dea/Untitled.png)
+
+
     
     ```python
      # проверка страницы на наличие таблицы с продуктами
@@ -311,14 +310,11 @@ Collect information from the website on the caloric content of products and thei
     ```
     
 - Итоговые файлы
-- Так выглядит директория проекта:
-
-![Screenshot from 2023-09-06 06-03-06.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e4285c8-c355-457c-86d7-9b6905c7adce/647718e5-d573-4e19-abf5-5de0ae22a420/Screenshot_from_2023-09-06_06-03-06.png)
+Так выглядит директория проекта:
+![Screenshot from 2023-09-06 06-03-06](https://github.com/DAYT-43/Parsing-calories/assets/80617386/5ba30330-1c0a-45ac-ba54-567289ff4d3d)
 
 Так выглядит выгрузка в json файле:
-
-![Screenshot from 2023-09-06 06-02-52.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e4285c8-c355-457c-86d7-9b6905c7adce/8ee9c08b-e064-46a2-ad8b-7ad0dab44dbc/Screenshot_from_2023-09-06_06-02-52.png)
+![Screenshot from 2023-09-06 06-02-52](https://github.com/DAYT-43/Parsing-calories/assets/80617386/912b8d6f-7f13-4f95-8c74-7d331e62e101)
 
 Так выглядит выгрузка CSV файла:
-
-![Screenshot from 2023-09-06 06-20-55.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e4285c8-c355-457c-86d7-9b6905c7adce/803649d2-14b5-47e8-8078-3ade5cd41025/Screenshot_from_2023-09-06_06-20-55.png)
+![Screenshot from 2023-09-06 06-20-55](https://github.com/DAYT-43/Parsing-calories/assets/80617386/2581a0e7-3441-4e12-9efe-63937fda9b4f)
